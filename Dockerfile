@@ -14,7 +14,6 @@ RUN CGO_ENABLED=0 go build -o bin .
 FROM scratch
 
 # set working directory
-WORKDIR /app
 COPY --from=builder bin .
 COPY --from=builder templates .
 
