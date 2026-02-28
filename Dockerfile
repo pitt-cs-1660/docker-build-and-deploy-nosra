@@ -7,7 +7,7 @@ WORKDIR /app
 # copy files into build stage
 COPY go.mod .
 COPY main.go .
-COPY templates .
+COPY templates ./templates
 
 # compile the app into a static binary
 RUN CGO_ENABLED=0 go build -o bin .
