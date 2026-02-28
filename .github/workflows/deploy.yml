@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 env:
-  ACCOUNT_ID: "gollingerc" # set your aws account id
+  ACCOUNT_ID: "387957185897" # set your aws account id
   REGION: "us-east-1" # set your aws region (e.g., us-east-1)
   REPO_NAME: "pitt/asn-2" # set your ecr repository name
 
